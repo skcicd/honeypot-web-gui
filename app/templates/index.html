@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - Honeypot Web GUI{% endblock %}
+
+{% block content %}
+<div class="dashboard">
+    <h2>Welcome to Honeypot Dashboard!</h2>
+    <p>This is a work in progress. More features coming soon!</p>
+    
+    <div class="stats">
+        <div class="stat-box">
+            <h3>Total Events</h3>
+            <p class="stat-number">0</p>
+        </div>
+        <div class="stat-box">
+            <h3>Unique IPs</h3>
+            <p class="stat-number">0</p>
+        </div>
+        <div class="stat-box">
+            <h3>Attacks Today</h3>
+            <p class="stat-number">0</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
